@@ -1,6 +1,7 @@
 import React from 'react'
 import 'styles/Offers.css'
 import facade from 'assets/facade.png'
+import visitCard from 'assets/visit-card.png'
 
 const Offers = () => {
     return (
@@ -12,9 +13,9 @@ const Offers = () => {
                 </div>
             </div>
             <div className="container offers-section">
-                <div className="d-flex justify-content-center">
+                <div className="d-flex justify-content-center mb-4">
                     <div className="col-4">
-                        <img src={facade} alt="façade" className="img-fluid img-size" />
+                        <img src={facade} alt="façade" className="img-fluid img-bakery" />
                     </div>
                     <div className="col-5 mt-3">
                         <h1>Habillage vitrine</h1>
@@ -25,6 +26,15 @@ const Offers = () => {
                             <li> Attirez l'oeil sur des actions éphémères </li>
                             <li> Offrez vous une jolie décoration </li>
                         </ul>
+                    </div>
+                </div>
+                <div className="d-flex justify-content-end">
+                    <div className="col-4">
+                        <img src={visitCard} alt="façade" className="img-fluid img-visit-card" />
+                    </div>
+                    <div className="col-5 mt-3">
+                        <h1>Edition </h1>
+                        <p>Nous conçevons pour vous différentes éditions numériques et offset sur mesure, adaptés à vous besoins !</p>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import 'styles/Navbar.css'
 const Navbar = () => {
     
     return (
-        <div className="d-flex justify-content-around align-items-center flex-column flex-md-row p-3 border-bottom black text-white">
+        <div className="d-flex justify-content-around align-items-center sticky-top flex-column flex-md-row p-3 border-bottom black text-white border border-dark">
             <h4>
                 <a href="/" className="text-decoration-none text-white"> Forte Impression</a>
             </h4>
