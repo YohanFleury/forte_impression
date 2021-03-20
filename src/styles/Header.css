@@ -4,11 +4,15 @@
 }
 
 .police {
+    position: relative;
+    top: 20px;
     font-size: 30px;
     line-height: 1,4;
     font-family: Arial, Helvetica, sans-serif
 }
 .logo-size {
+    position: relative;
+    top: 30px;
     width: 130px;
     height: 130px;
 }

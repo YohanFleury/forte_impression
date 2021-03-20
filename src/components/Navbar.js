@@ -1,7 +1,7 @@
 import React from 'react'
-import 'components/Navbar.css'
+import 'styles/Navbar.css'
 
-export const Navbar = () => {
+const Navbar = () => {
     
     return (
         <div className="d-flex justify-content-around align-items-center flex-column flex-md-row p-3 border-bottom black text-white">
@@ -16,3 +16,4 @@ export const Navbar = () => {
         </div>
     )
 }
+export default Navbar

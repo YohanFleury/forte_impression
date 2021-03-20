@@ -1,8 +1,8 @@
 import React from 'react'
-import 'components/Footer.css'
+import 'styles/Footer.css'
 
 
-export const Footer = () => {
+const Footer = () => {
     return (
         <footer className="footer text-white mt-5 position:fixed;">
             <div className="container p-5">
@@ -11,3 +11,4 @@ export const Footer = () => {
         </footer>
     )
 }
+export default Footer

@@ -1,0 +1,26 @@
+.offers-section {
+    color: #3c4858;
+}
+
+.para {
+    position: relative;
+    top: 20px;
+    margin: 0 0 1.3em;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.3rem;
+
+}
+
+.img-size {
+    position: relative;
+    left: 65px;
+    height: 300px;
+    width: 300px;
+}
+
+.police-list{
+    font-size: 1.3em;
+}
+li {
+    padding-top: 0.5em;
+}
