@@ -1,7 +1,9 @@
 .semi-header {
     background-color: black;
 }
-
+h1 {
+    text-align: center;
+}
 .police {
     font-size: 30px;
     line-height: 1,4;

@@ -7,9 +7,9 @@ const Header = () => {
         <div className="semi-header text-white">
             <div className="container">
                 <div className="d-flex row justify-content-center align-items-center">
-                    <img src={logo} alt="logo" className="img-fluid logo-size mt-3" />
+                    <img src={logo} alt="logo" className="img-fluid logo-size mb-2" />
                     <p className="police mt-3"> Votre Partenaire qui vous accompagne dans vos projets de création d'aménagement et de réaménagement sur mesure. </p>
-                    <button className="btn btn-size mt-4 mb-4"> Découvrez nos créations </button>     
+                    <button className="btn btn-size mt-4 mb-5"> Découvrez nos créations </button>     
                 </div>
             </div>
         </div>
